@@ -38,7 +38,7 @@ public class Controller {
                 g.setColor(Color.BLUE);
                 int x = view.getPanelDibujo().getWidth() / 2 - 50;
                 int y = view.getPanelDibujo().getHeight() / 2 - 50;
-                g.fillRect(x, y, 100, 100);
+                g.fillOval(x, y, 100, 100); // Dibuja un óvalo en lugar de un rectángulo
             };
             view.getPanelDibujo().repaint();
         });

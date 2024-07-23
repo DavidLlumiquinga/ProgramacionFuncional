@@ -10,6 +10,7 @@ public class Main {
             View view = new View();
             new Controller(view);
             view.setVisible(true);
+
         });
     }
 }
